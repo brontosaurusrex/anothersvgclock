@@ -5,4 +5,4 @@ script_dir=$(dirname "$actual_path")
 
 cd "$script_dir"
 
-yad --html --uri=clock.htm --no-buttons --undecorated --fixed --borders=0 --width=400 --height=400 --title="" --no-headers
+yad --html --uri=clock.htm --no-buttons --fixed --borders=0 --width=400 --height=400 --title="Time" --no-headers
